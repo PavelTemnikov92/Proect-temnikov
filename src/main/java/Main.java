@@ -53,6 +53,10 @@ public class Main {
         for (int i = 1; i <= 3; i++) {
             System.out.print("Введите название машины №" + i + ": ");
             String name = scanner.nextLine();
+            while (name.isEmpty()) {
+                System.out.println("Ошибка! Название машины не может быть пустым. Попробуйте снова.");
+                System.out.print("Введите название машины №" + i + ": ");
+                name = scanner.nextLine();}
 
             int speed = 0;
             boolean isValid = false;
@@ -62,7 +66,7 @@ public class Main {
                     speed = Integer.parseInt(scanner.nextLine());
 
 
-                    if (speed >= 0 && speed <= 350) {
+                    if (speed >= 0 && speed <= 250) {
                         isValid = true;
                     } else {
                         System.out.println("Ошибка! Скорость должна быть в диапазоне 0-250 км/ч");
