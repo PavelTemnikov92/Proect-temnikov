@@ -5,10 +5,10 @@ plugins {
 
 android {
     compileSdk 34
-    namespace = "ru.yandex.practicum.contacts"
+    namespace = "com.example.contacts"
 
     defaultConfig {
-        applicationId "ru.yandex.practicum.contacts"
+        applicationId "com.example.contacts"
         minSdk 24
         targetSdk 34
         versionCode 1
