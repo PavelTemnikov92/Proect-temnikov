@@ -1,0 +1,19 @@
+=============================================== 
+Build started at 30.10.2025 12:43:56,39 
+=============================================== 
+ 
+Checking Java... 
+java version "1.8.0_471"
+Java(TM) SE Runtime Environment (build 1.8.0_471-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.471-b09, mixed mode)
+ 
+Checking connected devices... 
+List of devices attached
+
+ 
+Building project... 
+
+ERROR: JAVA_HOME is set to an invalid directory: C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot
+
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation.
